@@ -1,0 +1,99 @@
+button.btn1 {
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #213040;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 64px;
+  font-weight: bold;
+}
+button.btn1:hover {
+  background-color: white;
+  color: black;
+}
+
+.search-bar {
+  margin-left: 250px;
+  margin-top: 10px;
+}
+.log-btn {
+  background-color: white;
+  border: 3px solid #2BBBAD;
+  color: #2BBBAD;
+  height: 64px;
+  font-size: 18px;
+  width: 100px; 
+}
+.log-btn:hover {
+  background-color: #2BBBAD;
+  color: white;
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+.wow {
+  visibility: hidden;
+}
+.bg {
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.next-btn {
+  background-color: #DF3333;
+  border: 2px solid #DF3333;
+  color: white;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+.next-btn:hover {
+  background-color: white;
+  color: #DF3333;
+}
+.to-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #000;
+  padding: 9px 12px;
+  border-radius: 50%;
+}
+.to-top:hover {
+  background: #ECCECE;
+  color: #000;
+}
