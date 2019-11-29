@@ -3,7 +3,7 @@
 
 2.  Create a database in your system of name "realestate".
 
-3.  Extract and copy the downloaded project folder in your server folder (XAMMP/ WAMP).
+3.  Extract and copy the downloaded project folder in your server folder  of htdocs (XAMPP/htdocs).
 
 4.  Import the database/realestate.sql table file in your created database.
 
